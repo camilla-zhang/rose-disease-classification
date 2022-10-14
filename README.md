@@ -1,1 +1,3 @@
-# rose-disease-classification
+# Rose Disease Classification Project
+
+I submitted this assignment for my Advanced Projects Machine Learning course from Spring 2022 at Columbia. The main goal was to take over 4,000 images of roses and build 6 models that accurately predicts what type of disease they have. The choices are: Black spotted, downy mildew, and fresh leaf (no disease). The models I used were: MLP network, CNN tuning on the number of epochs, CNN with optimal number of filters using keras tuner, and 3 transfer learning models (VGG-16, VGG-19, and Xception). The best model was the Xception, with an accuracy score of 95.6%.
